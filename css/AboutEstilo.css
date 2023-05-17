@@ -1,0 +1,27 @@
+.image-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+.image-container .image-box {
+    flex-basis: 24%;
+    margin: 10px;
+    text-align: center;
+  }
+  
+.image-container .image-box img {
+    border-radius: 50%;
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+  }
+  
+.image-container .image-box h3 {
+    margin-top: 10px;
+    color: white;
+  }
+  
+.image-container .image-box p {
+    margin-top: 5px;
+    color: white;
+  }

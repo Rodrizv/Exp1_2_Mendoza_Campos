@@ -1,0 +1,29 @@
+.image-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center; /* Centra horizontalmente el contenido */
+    justify-content: center; /* Centra verticalmente el contenido */
+    text-align: center; /* Centra el texto dentro de los elementos h3 y p */
+  }
+  
+.image-container .image-box {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    width: 60%;
+  }
+  
+.image-container .image-box img {
+    max-width: 100%;
+  }
+  
+.image-container .image-box h3 {
+    margin-top: 10px;
+    color: white;
+    font-weight: bold;
+  }
+  
+.image-container .image-box p {
+    margin-top: 5px;
+    color: white;
+  }

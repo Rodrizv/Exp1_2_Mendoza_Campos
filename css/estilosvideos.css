@@ -1,0 +1,37 @@
+.video-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .video {
+    width: 30%;
+    margin-right: 2%;
+  }
+  
+  iframe {
+    width: 65%;
+    margin-left: 15%;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .video-container {
+      flex-wrap: wrap;
+    }
+    
+    .video {
+      width: 100%;
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+  }
+  .video p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+  }
+  .video h2{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+  }
+
